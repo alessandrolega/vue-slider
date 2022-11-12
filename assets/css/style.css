@@ -1,0 +1,16 @@
+.container100{
+    height: 100vh;
+}
+
+.container{
+    width: 70%;
+    
+}
+
+.container > img{
+    width: 100%;
+}
+
+.icon-cursor{
+    cursor: pointer;
+}
