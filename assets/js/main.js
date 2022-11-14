@@ -15,8 +15,6 @@ var app = new Vue({
     methods: {
         scrollRight: function () {
             let objLenght = this.images.length - 1;
-            console.log(objLenght)
-
             if (this.indice >= objLenght) {
                 return this.indice = 0;
             } else {
@@ -26,15 +24,13 @@ var app = new Vue({
 
         scrollLeft: function () {
             let min = 0;
-
             if (this.indice <= min) {
                 return this.indice = this.images.length -1;
             } else {
                 return this.indice--;
             }
         }
-    }
-    
+    } 
   })
 
 
