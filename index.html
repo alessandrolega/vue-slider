@@ -17,12 +17,12 @@
             <div class="container d-flex justify-content-between align-items-center">
                 <div>
                     
-                    <i class="fa-solid fa-angle-left fa-2x icon-cursor"></i>
+                    <i class="fa-solid fa-angle-left fa-2x icon-cursor" @click="scrollLeft"></i>
                 </div>
                 <div class="container">
-                    <img :src="images[0].img" alt="">
+                    <img :src="images[indice].img" alt="">
                 </div>
-                    <i class="fa-solid fa-angle-right fa-2x icon-cursor"></i>
+                    <i class="fa-solid fa-angle-right fa-2x icon-cursor" @click="scrollRight"></i>
                 </div>
 
             </div>
